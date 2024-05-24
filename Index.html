@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <style>
+
+     .highlight{
+        color: brown;
+     }
+    </style>
+</head>
+<body>
+   <form action="">
+    <h3>Please enter your details</h3>
+    <p style="font-size: larger; color:blue;">Your Full Name ,Email and password are required</p>
+    <div style="background-color: aqua; color: brown;">
+        <label for=" First Name">Enter first Name</label>
+        <input type="text" placeholder="First Name" id="First Name" required >
+        <br>
+        <label for="Second Name">Second Name</label>
+        <input type="text" placeholder="Second Name" id="Second Name" required>
+        <br>
+        <label for="Lat Name"> Last Name</label>
+        <input type="text" placeholder="Last Name" id="Last Name" required>
+        <br>
+        <label for="Email"> Enter your email</label>
+        <input type="text" placeholder="Email Address" id="Email" required>
+        <label for="State of Origin"> Select your state of Origin</label>
+        <select name="" id="">
+            <option value="6"> Nairobi</option>
+            <option value="5"> Nakuru</option>
+            <option value="4"> Njoro</option>
+            <option value="3"> Rumuruti</option>
+            <option value="2"> Kapsabet</option>
+            <option value="1"> Kakamega</option>
+
+        </select>
+        <label for="password"> Enter password</label>
+        <input type="password" placeholder="password" id="password" required>
+<br>
+     <label for="Date of birth"> Enter your date of birth</label>
+     <input type="date" placeholder="Date of birth" id="Date of birth" required>
+     <br>
+     <label for="Age"> Enter your Age</label>
+     <input type="number" placeholder="Age" min="20" max="60" id="Age">
+    <br>
+    <label for="File">Please include your original id</label>
+    <input type="File" id="File" required>
+    <br>
+    <label for="File"> Please Include your Cv</label>
+    <input type="File" name="" id="File" required>
+    </div>
+    <div style="font-size: larger;background-color: aqua;color:bisque;">
+        <p>What is your Gender?</p>
+        <label for="Male"> Male</label>
+        <input type="radio" id="Male" value="Male" name="Gender">
+        <br>
+        <label for="female"> Female</label>
+        <input type="radio" id="female" value="female" name="Gender">
+        <br>
+        <label for="Others">Others</label>
+        <input type="radio" id="Others" value="Others" name="Gender">
+    </div>
+       <div style="background-color:aquamarine; color: blanchedalmond;">
+       <p>How did you hear about us?</p>
+       <label for="Magazines"> Magazines</label>
+       <input type="checkbox" id="Magazines" value="Magazines" name="Magazines">
+       <br>
+       <label for="Radio"> Radio</label>
+       <input type="checkbox" id="Radio" value="Radio" name="Radio">
+       <br>
+       <label for="Television">Televison</label>
+       <input type="checkbox" id="Television" value="Television" name="Television">
+       <br>
+       <label for="Ads"> Ads</label>
+       <input type="checkbox" id="Ads" value="Ads" name="Ads" >
+       </div>
+       <br>
+       <p>How was your experience with our <span class="highlight">Online Services</span></p>
+<label for="User Experience">User   Experience</label>
+<br>
+ <textarea name="User Experience" id="User Experience" cols="50" rows="5" ></textarea>
+ <br>
+ <input type="submit" value="Sign up">
+   </form>
+</body>
+</html>
